@@ -1,0 +1,63 @@
+.table-change{
+    width: 90%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+h1{ 
+    color: #f37d59;
+    font-size: 32px; /* You can adjust the font size as needed */
+  color: #333; /* Text color */
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+.edit-popup {
+    border: 2px  ;
+    background-color: white;
+    width: 300px;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    position: relative;
+    top: -300px;
+}
+
+.popup-parent {
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-color: black; */
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add{
+    padding:10px;
+    border-radius: 10px;
+    background-color: #f37d59;
+    height:50px;
+   margin-bottom: 20px;
+}
+.add:hover {
+    background-color: #ffb451;
+}
+
+.btn{
+    padding:8px;
+    background-color: #f37d59;
+    
+}
+.btn:hover {
+    background-color: #ffb451;
+  }

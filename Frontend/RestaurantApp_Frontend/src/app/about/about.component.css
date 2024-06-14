@@ -1,0 +1,62 @@
+/* About */
+.visual {
+  width: 1400px;
+  height: 590px;
+  background-image: url('https://raw.githubusercontent.com/programmercloud/foodlover/main/img/about.png');
+  background-size: cover;
+  margin-top: 70px;
+  flex: 1;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* position: relative; */
+  gap: 1.5rem;
+  top: 100px;
+  align-items: center;
+}
+
+h1, h2, h3, p, a {
+  margin: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  /* align-items: center; */
+  margin-right: 1.5rem;
+
+  flex: 1.1;
+}
+
+.para {
+  font-size: 1.5rem;
+}
+
+.primary {
+  font-size: 1.6rem;
+}
+
+.tertiary {
+  font-size: 1.75rem;
+}
+
+.heading-text {
+  font-size: 3.5rem;
+}
+/* End About */
+
+.btn{
+  padding:3px;
+  background-color: #f37d59;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+.btn:hover {
+  background-color: #ffb451;
+}

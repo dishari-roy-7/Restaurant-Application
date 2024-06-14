@@ -1,0 +1,29 @@
+<!-- Menu -->
+<div class="menu">
+    <nav>
+      <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn">
+      </label>
+
+      <label class="logo">FoodLover</label>
+
+        <ul>
+        <li><a routerLink="" class="active">Home</a></li>
+        <span *ngIf="isLogin;then condition1;else condition2"></span>
+        <ng-template #condition1>
+          <li (click)="Logout()"><a href="#">Logout</a></li>
+          
+        </ng-template>
+        <ng-template #condition2>
+        <li><a routerLink="/login">Login</a></li>
+        </ng-template>
+        <li><a routerLink="/about">About Us</a></li>
+        <li><a routerLink="/restaurants">Restaurants</a></li> 
+        <li><a routerLink="/contact">Contact Us</a></li>
+        
+
+        
+      </ul>
+    </nav>
+  </div>
+  <!-- End Menu -->

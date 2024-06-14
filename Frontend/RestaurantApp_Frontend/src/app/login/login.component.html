@@ -1,0 +1,19 @@
+<header class="showcase">
+  <div class="showcase-content">
+    <div class="showcase-top">
+      <h1 style="font-family:'Josefin Sans', sans-serif; font-size: xx-large;text-align: center;margin-top: 20px;">LOGIN</h1>
+    </div>
+    <div class="formm">
+        <div class="info" style="text-align: center;">
+          <label>Username: </label><input class="input" type="Username" placeholder="Username" id="email" [(ngModel)]="Admin.username"> <br>
+          <label>Password: </label><input class="input" type="Password" placeholder="Password" id="password"  [(ngModel)]="Admin.password">
+        </div>
+        <div class="btn">
+          <button class="btn-primary" type="submit" (click)="Login()" style="font-family:'Josefin Sans', sans-serif;background-color:#f37d59;">Log In</button>
+        </div>
+       
+        <div style="color: #f37d59; display: flex;justify-content: center;">{{errorMessage}}</div>
+    </div>
+  </div>
+</header>
+

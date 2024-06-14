@@ -1,0 +1,103 @@
+.contact-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  width: 90%; /* Increase section width */
+  margin: auto;
+}
+.social-icons {
+  position: absolute;
+bottom: 20px;
+left: 50%; /* Move the icons towards the center horizontally */
+transform: translateX(-50%); /* Adjust to center the icons */
+display: flex;
+justify-content: center;
+width: 100%;
+}
+
+
+.contact-info,
+.contact-form {
+  flex-basis: 48%;
+}
+
+.contact-info {
+  
+  text-align: left;
+  padding: 50px;
+  padding-top: 90px;
+  background-color: hsl(0, 4%, 95%); /* Light gray background */
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Josefin Sans', sans-serif; /* Update font family */
+ 
+}
+
+.contact-form {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Light gray background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  font-family: 'Josefin Sans', sans-serif; /* Update font family */
+}
+
+.contact-info h2{
+  
+      margin-top: 0;
+      color: #f37d59; /* Dark gray heading color */
+      text-align: left; /* Align headings to the left */
+      font-size: 35px;
+    
+}
+.contact-form h2 {
+  margin-top: 0;
+  color: #333; /* Dark gray heading color */
+  text-align: left; /* Align headings to the left */
+}
+.required-text {
+  color: red; /* Red color for required text */
+  text-align: left; /* Adjust text alignment */
+  margin-left: 10px; /* Add margin for separation from the form */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Align form labels to the left */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555; /* Medium gray label color */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff; /* Light gray border */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f5e9d6; /* White background for text boxes */
+  font-family: 'Josefin Sans', sans-serif; /* Update font family */
+}
+
+.submit-btn {
+  background-color: #f37d59; /* Orange button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Josefin Sans', sans-serif; /* Update font family */
+}
+
+.submit-btn:hover {
+  background-color: #ff7f00; /* Darker orange on hover */
+}
